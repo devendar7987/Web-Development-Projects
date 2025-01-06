@@ -1,0 +1,793 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+/* Navigation Bar */
+.navbar{
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  background-image: url('amazon_logo.png');
+  background-size: cover;
+  height: 50px;
+  width: 120px;   
+}
+.nav-logoBorder{
+  margin-right: 6px;
+  height: 50px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-logoBorder:hover{
+  border: 1.5px solid white;
+}
+.nav-addressBorder{
+  margin-right: 6px;
+  height: 50px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+}
+.nav-addressBorder:hover{
+  border: 1.5px solid white;
+}
+.address p{
+  padding-left: 16px;
+}
+.nav-searchBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-searchBox:hover{
+  border: 3px solid  #febd68; 
+}
+
+.select{
+  height: 37px;
+  width: 45px;
+  background-color: #f3f3f3;
+  color: #0F1111;
+  margin-right: 0.5px;
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  text-align: center;
+  
+}
+.inputSearch{
+  height:37px;
+  width:490px;
+  border: none;
+}
+.search-icon{
+  height: 37px;
+  width: 45px;
+  background-color: rgb(255, 208, 0);
+  color: #0F1111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.nav-languageBorder{
+  margin-right: 6px;
+  margin-left: 10px;
+  height: 50px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-languageBorder:hover{
+  border: 1.5px solid white;
+}
+
+.language img {
+  height: 13px;
+  width: 20px;
+}
+.language select{
+  height: 16px;
+  width: 45px;
+  background-color: #0F1111;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+.nav-accountsBorder{
+  margin-right: 6px;
+  height: 50px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+}
+.nav-accountsBorder:hover{
+  border: 1.5px solid white;
+}
+.info p{
+  padding-left: 5px;
+}
+.info select{
+  border: none;
+  background-color: #0F1111;
+  color: white;
+  font-size: 14px;
+}
+.nav-returnBorder{
+  margin-right: 6px;
+  height: 50px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+.nav-returnBorder:hover{
+  border: 1.5px solid white;
+}
+.returns span{
+  font-size: 15px;
+}
+.nav-cartBorder{
+  height: 50px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+.nav-cartBorder:hover{
+  border: 1.5px solid white;
+}
+.cart i{
+  font-size: 25px;
+}
+.cart span{
+  font-size: 15px;
+}
+/* Panel */
+.panel-Content{
+  height: 35px;
+  background-color:#222f3d;
+  color: white;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.panel-Content a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;  
+}
+.panel-Content select{
+  background-color: #222f3d;
+  color: white;
+  border: none;
+}
+.panel-Content select:hover{
+  border: 1.5px solid white;
+  height: 35px;
+}
+.panel-Content a{
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.panel-Content a:hover{
+  border: 1.5px solid white;
+}
+/* Main Image */
+.main-Image {
+  background-image: url('mainimage.jpg');
+  background-size: cover;
+  height: 250px;
+}
+/* Left Chev*/
+.chev-left{
+  font-size: 40px;
+  color:rgba(47, 41, 41, 0.719);
+  position: absolute;
+  top: 200px;
+  left: 15px;
+}
+/* Right Chev*/
+.chev-right{
+  font-size: 40px;
+  color:rgba(47, 41, 41, 0.719);
+  position: absolute;
+  top: 200px;
+  right: 15px;
+ }
+ /* Containers*/
+ /* Container1*/
+ .containers .container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: aliceblue;
+ }
+.box{
+  height: 418px;
+  width: 300px;
+  background-color: white;
+ }
+.container1 .box h3{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   line-height: 28px;
+ }
+.box1-images img{
+    margin-top: 3px;
+    margin-left: 3px;
+    height: 140px;
+    width: 140px;
+ }
+.box1-images .content1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+ }
+.box1-images .content2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 65px;
+ }
+.box1-images .content3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 18px;
+ }
+.box1-images .content4{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 43px;
+ }
+.below-images img{
+   padding-top: 5px;
+ }
+.more-Content a{
+    text-decoration: none;
+    color: #2162a1;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.more-Content{
+    margin-top: 10px;
+    padding-left: 10px;
+ }
+.box1-images .content5{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 22px;
+ }
+.box1-images .content6{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 44px;
+ }
+.box1-images .content7{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+ }
+.box1-images .content8{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+ }
+.box1-images .content9{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+ }
+.box1-images .content10{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 74px;
+ }
+.box1-images .content11{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 35px;
+ }
+.box1-images .content12{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70px;
+ }
+.box1-images .content13{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 8px;
+ }
+.box1-images .content14{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 6px;
+ }
+.box1-images .content15{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2px;
+ }
+.box1-images .content16{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 12px;
+ }
+    /* Container2*/
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    padding-top: 15px;
+  }
+.boxes .box12 img{
+   height: 418px;
+   width: 615px;
+   position: absolute;
+   left: 10px;
+}
+.boxes .box12  .content1{
+    color: #f3f3f3;
+    position: absolute;
+    left: 15px;
+    top: 790px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.boxes .box12  .content2{
+    color:#f3f3f3;
+    position: absolute;
+    left: 15px;
+    top: 820px;
+    font-size: 14px;
+}
+.boxes .box12  .content3{
+    color:#f3f3f3;
+    position: absolute;
+    left: 15px;
+    top: 1160px;
+    font-size: 12px;
+}
+.container2 .boxes .box3{
+    margin-left: 310px;
+    left: 800px;
+    background-color: white;
+    height: 418px;
+    width: 300px;
+}
+.container2 .boxes .box4{
+    background-color: white;
+    height: 418px;
+    width: 300px;
+    position: absolute;
+    left: 950px;
+    top:780px ;
+}
+.container2 .box3 h3{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   line-height: 28px;
+  }
+.container2 .box3 img{
+    height: 340px;
+    width: 285px;
+    padding-left: 14px;
+    padding-top: 20px;
+  }
+.box3Content a{
+    text-decoration: none;
+    color: #2162a1;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.box3Content{
+    padding-top: 10px;
+    padding-left: 13px;
+  }
+.container2 .box4 h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 28px;
+  }
+.container2 .box4 img{
+    height: 310px;
+    width: 285px;
+    padding-left: 14px;
+    padding-top: 20px;
+   }
+.box4Content a{
+     text-decoration: none;
+     color: #2162a1;
+     font-family: 'Times New Roman', Times, serif;
+   }
+.box4Content{
+     padding-top: 10px;
+     padding-left: 13px;
+   }
+      /* Container3*/
+.container3{
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color:white;
+    border: 1px solid #f3f3f3;
+   }
+.container3 .content h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    padding-left: 5px;
+   }
+.container3 .content a{
+    text-decoration: none;
+    color: #2162a1;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 8px;
+  }
+.container3 .boxes{
+    height: 280px;
+    justify-content: space-evenly;
+   }
+.container3 .boxes .box{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 6px;
+   }
+.container3 .boxes .box{
+    height: 250px;
+    width: 200px;
+   }
+.container3 .box1{
+    background-image: url('r1.png');
+    background-size: cover;
+   }
+.container3 .box2{
+    background-image: url('r2.jpeg');
+    background-size: cover;
+   }
+.container3 .box3{
+    background-image: url('r3.jpg');
+    background-size: cover;
+   }
+.container3 .box4{
+    background-image: url('r4.jpg');
+    background-size: cover;
+   }
+.container3 .box5{
+    background-image: url('r5.jpg');
+    background-size: cover;
+   }
+.container3 .box6{
+    background-image: url('r6.jpg');
+    background-size: cover;
+   }
+        /* Container4*/
+.container4{
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 1px solid #f3f3f3;
+   }
+.container4 .content h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    padding-left: 5px;
+   }
+.container4 .content a{
+    text-decoration: none;
+    color: #2162a1;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 8px;
+  }
+.container4 .boxes{
+    height: 280px;
+    justify-content: space-evenly;
+   }
+.container4 .boxes .box{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 6px;
+   }
+.container4 .boxes .box{
+    height: 250px;
+    width: 200px;
+   }
+.container4 .box1{
+    background-image: url('f1.jpg');
+    background-size: cover;
+   }
+.container4 .box2{
+    background-image: url('f2.jpg');
+    background-size: cover;
+   }
+.container4 .box3{
+    background-image: url('f3.jpg');
+    background-size: cover;
+   }
+.container4 .box4{
+    background-image: url('f4.jpg');
+    background-size: cover;
+   }
+.container4 .box5{
+    background-image: url('f5.jpg');
+    background-size: cover;
+   }
+.container4 .box6{
+    background-image: url('f6.jpg');
+    background-size: cover;
+   }
+      /* Container5*/
+.container5{
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 1px solid #f3f3f3;
+   }
+.container5 .content h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    padding-left: 5px;
+   }
+.container5 .boxes{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-top: 8px;
+    height: 410px;
+   }
+.container5 .box{
+    height: 400px;
+    width: 200px;
+   }
+.container5 .box1 img{
+    height: 200px;
+    width: 190px;
+   }
+.container5 .box1Content a{
+    color: #2162a1;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: block;
+   }
+.container5 .box1Content{
+    margin-top: 5px;
+    margin-left: 5px;
+   }
+.container5 .box1Content i{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #f08804;
+   }
+.container5 .box1Content .views a{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+   }
+.container5 .box1Content .viewsContent{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    display: block;
+    margin-top: 3px;
+   }
+.container5 .box1Content .discount{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: red;
+    margin-left: 3px;
+    margin-top: 2px;
+   }
+.container5 .box1Content .cost{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 10px;
+   }
+.container5 .box1Content .Mrp{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-left: 3px;
+    display: block;
+    margin-top: 3px;
+   }
+.container5 .box1Content .underline{
+    text-decoration: line-through;
+   }
+.container5 .box1Content .delivery{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+   }
+.container5 .box1Content .bold{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+   }
+.container5 .box2 img{
+    height: 200px;
+    width: 190px;
+   }
+.container5 .box3 img{
+    height: 200px;
+    width: 190px;
+   }
+.container5 .box4 img{
+    height: 200px;
+    width: 190px;
+   }
+.container5 .box5 img{
+    height: 200px;
+    width: 190px;
+   }
+.container5 .box6 img{
+    height: 200px;
+    width: 190px;
+   }
+      /* footer1*/
+.footer1{
+    margin-top: 20px;
+   }
+.footer1 a{
+    text-decoration: none;
+    height: 35px;
+    background-color:#37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+    /* footer2*/
+.footer2{
+    background-color: #222f3d;
+    color: white;
+    height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+.footer2 .box{
+  height: 310px;
+  width: 200px;
+  margin-top: 40px;
+  background-color: #222f3d;
+ }
+.footer2 .box p{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+ }
+.footer2 .box ul{
+  list-style: none;
+ }
+.footer2 .box ul li a{
+  text-decoration: none;
+  color: #dddddd;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+ }
+.footer2 .nextline{
+  text-decoration: none;
+  color: #dddddd;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+ }
+.footer2 .box ul li{
+  line-height:25px;
+ }
+    /* footer3*/
+.footer3{
+  background-color: #222f3d;
+  color: white;
+  height: 100px;
+  border-top: 0.1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.footer3 .logo{
+  background-image: url('amazon_logo.png');
+  background-size: cover;
+  height: 52px;
+  margin-right: 50px;
+ }
+.footer3 .content1{
+  margin-right: 10px;
+ }
+.footer3 .content1 .language{
+  border: 1.0px solid #dddddd;
+  font-family: 'Times New Roman', Times, serif;
+  color: #dddddd;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.footer3 .content1 .language span{
+   padding-left: 5px;
+ }
+.footer3 .content2 .country{
+  border: 1.0px solid #dddddd;
+  font-family: 'Times New Roman', Times, serif;
+  color: #dddddd;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.content2 .country img{
+  height: 12px;
+  width: 15px;
+ }
+.footer3 .content2 .country span{
+  padding-left: 5px;
+}
+ /* footer4*/
+.footer4{
+  background-color: #0F1111;
+  height: 210px;
+}
+.table1{
+  padding-top: 30px;
+}
+.footer4 .table1{
+ padding-left: 230px;
+}
+.table1 td{
+ padding-right: 105px;
+}
+
+.table1 a{
+  text-decoration: none;
+}
+.table1 .row1 a{
+  color: #dddddd;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+.table1 .row2 a{
+ color: #999999;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 14px;
+}
+.table1 .row3 a{
+  color: #999999;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+ }
+ .table1 .row4 a{
+  color: #dddddd;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+.table1 .row5 a{
+ color: #999999;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 14px;
+}
+.table1 .row6 a{
+  color: #999999;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+ }
+ /* footer5*/
+.footer5{
+    background-color: #0F1111;
+    height: 70px;
+  }
+.footer5 .content1{
+    display: flex;
+    justify-content: center;
+  }
+.footer5 .content1 a{
+    text-decoration: none;
+    color: #dddddd;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+  }
+.footer5 .content1 .space{
+   padding-left: 20px;
+  }
+.footer5 .content2{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+  }
+.footer5 .content2 i{
+  color: #dddddd;
+  font-size: 12px;
+  padding-top: 3.5px;
+}
+.footer5 .content2 span{
+    color: #dddddd;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.footer5 .content2 span{
+  padding-left: 5px;
+ }
+
+
