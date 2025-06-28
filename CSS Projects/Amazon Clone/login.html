@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login-box">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Enter Email" required>
+            <input type="password" id="login-password" placeholder="Enter Password" required>
+            <button onclick="loginUser()">Login</button>
+            <p>Don't have an account? <a href="#" onclick="showSignup()">Sign up</a></p>
+        </div>
+
+        <div id="signup-box" style="display:none;">
+            <h2>Signup</h2>
+            <input type="text" id="signup-name" placeholder="Enter Name" required>
+            <input type="email" id="signup-email" placeholder="Enter Email" required>
+            <input type="password" id="signup-password" placeholder="Enter Password" required>
+            <button onclick="registerUser()">Signup</button>
+            <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
